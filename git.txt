@@ -1,0 +1,84 @@
+
+
+lenovo@DESKTOP-FPG6HA9 MINGW64 ~/Desktop/github
+$ git clone https://github.com/Anshuldhobe/batch10anshul.git
+Cloning into 'batch10anshul'...
+warning: You appear to have cloned an empty repository.
+
+lenovo@DESKTOP-FPG6HA9 MINGW64 ~/Desktop/github
+$ cd batch10anshul/
+
+lenovo@DESKTOP-FPG6HA9 MINGW64 ~/Desktop/github/batch10anshul (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Query 1.csv
+
+nothing added to commit but untracked files present (use "git add" to
+track)
+
+lenovo@DESKTOP-FPG6HA9 MINGW64 ~/Desktop/github/batch10anshul (main)
+$ git add -A
+
+lenovo@DESKTOP-FPG6HA9 MINGW64 ~/Desktop/github/batch10anshul (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Query 1.csv
+
+
+lenovo@DESKTOP-FPG6HA9 MINGW64 ~/Desktop/github/batch10anshul (main)
+$ git commit -m "Sending my first file"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@DESKTOP-FPG6HA
+9.(none)')
+
+
+
+lenovo@DESKTOP-FPG6HA9 MINGW64 ~/Desktop/github/batch10anshul (main)
+$ git config --global user.email "dhobeanshul14@gmail.com"
+
+
+
+lenovo@DESKTOP-FPG6HA9 MINGW64 ~/Desktop/github/batch10anshul (main)
+$ git config --global user.name "Anshuldhobe"
+
+lenovo@DESKTOP-FPG6HA9 MINGW64 ~/Desktop/github/batch10anshul (main)
+$ git commit -m "Sending my first file"
+[main (root-commit) 96df58e] Sending my first file
+ 1 file changed, 1001 insertions(+)
+ create mode 100644 Query 1.csv
+
+lenovo@DESKTOP-FPG6HA9 MINGW64 ~/Desktop/github/batch10anshul (main)
+$ git push origin main
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 14.93 KiB | 3.73 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Anshuldhobe/batch10anshul.git
+ * [new branch]      main -> main
+
+lenovo@DESKTOP-FPG6HA9 MINGW64 ~/Desktop/github/batch10anshul (main)
+$
